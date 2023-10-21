@@ -650,6 +650,20 @@ files = [
 Flask = ">=0.9"
 
 [[package]]
+name = "free-proxy"
+version = "1.1.1"
+description = "Proxy scraper for further use"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "free_proxy-1.1.1.tar.gz", hash = "sha256:2b20eb863972b42984292cee17132f4c9ddb8fef0a9bee9bc15215a08e6899fb"},
+]
+
+[package.dependencies]
+lxml = "*"
+requests = "*"
+
+[[package]]
 name = "frozenlist"
 version = "1.4.0"
 description = "A list-like structure which implements collections.abc.MutableSequence"
@@ -1948,4 +1962,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "2829d2d00e5321fe4f9ca05d0b117b785352753e97944a2011f6a6d5a4c78542"
+content-hash = "b7036915107e4a0524b8f015aebc9fd043d3cde68890d7e9e16dc0c16e0d7f6c"
