@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "g4f-api"
+version = "0.1.0"
+description = ""
+authors = ["tgscan <tgscan.xyz@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+loguru = "^0.7.0"
+toolz = "^0.12.0"
+python-dotenv = "^1.0.0"
+rich = "^13.5.2"
+g4f = "^0.1.7.2"
+fastapi = "^0.104.0"
+uvicorn = "^0.23.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
