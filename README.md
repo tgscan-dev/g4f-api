@@ -2,7 +2,7 @@
 
 ## Contributions
 
-Contributions are welcome! 
+Contributions are welcome!
 
 ## License
 
