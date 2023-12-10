@@ -11,7 +11,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Install Poetry
-RUN pip install poetry
+RUN pip install poetry==1.1.13  # Replace with the desired version
 
 # Copy the current directory contents into the container at /app
 COPY . /app
