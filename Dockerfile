@@ -14,7 +14,9 @@ RUN apt-get update && \
 RUN pip install poetry==1.1.13  # Replace with the desired version
 
 # Copy the current directory contents into the container at /app
-COPY . /app
+COPY pyproject.toml poetry.lock* /app/
+COPY src /app/src
+# Continue copying other necessary files and directories individually
 
 # Install dependencies using poetry
 # The --no-root option is used to avoid installing the package (defined in pyproject.toml) itself
